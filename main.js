@@ -51,7 +51,7 @@ function clear(e) {
     // console.log("first stop animation or wait for it to finish");
     clear_button.classList.add("fail");
   }else{
-    if(example_area.innerHTML===""){
+    if(example_area.innerHTML==="&nbsp;" || example_area.innerHTML===""){
       // console.log("there is nothing to clear");
       clear_button.classList.add("fail");
     }else{
